@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = hola;
+const nuevaString = "hola";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 55;
@@ -37,28 +37,35 @@ function suma(x, y) {
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
   
-  return x + y;
+  x = 5;
+  y = 10;
+  return x + y
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x;
-  
+
+  x = 25;
+  y = 10;
+  return x - y 
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
-  return x * y;
+  x = 40;
+  y = 2;
+  return x * y
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y;
-  
+  x = 5;
+  y = 2;
+  return x / y
 }
 
 function sonIguales(x, y) {
@@ -66,9 +73,10 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if (x === y) 
+  if (15 === 15){ 
   return true;
-  
+}else 
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -76,9 +84,10 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  if (str1 === str2)
+  if (str1 === str2){
   return true;
-  
+  }else 
+  return false;
 }
 
 function menosQueNoventa(num) {
