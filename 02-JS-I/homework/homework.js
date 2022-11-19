@@ -117,7 +117,10 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+
+  x = 5;
+  y = 2;
+  return x / y
 }
 
 function esPar(num) {
@@ -125,6 +128,10 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if (num === 6){
+  return true;
+  }else
+  return false;
 }
 
 function esImpar(num) {
@@ -132,24 +139,29 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   
+  if (num === 5){
+  return true;
+  }else
+  return false;
 }
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  let elevar = Math.pow(10, 3);
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  
+  let elevar = Math.pow(2, 3)
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
+  
   
 }
 
@@ -176,7 +188,6 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
 }
 
 function agregarSimboloExclamacion(str) {
